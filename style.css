@@ -1,12 +1,12 @@
-:root { --navy: #0B1226; --navy2: #1E2A4A; --lime: #B6F221; --text: #0E1424; --muted: #5B6478; --bg: #F6F7FB; --card: #FFFFFF; --line: #E3E6EE; }
-@media (prefers-color-scheme: dark) { :root { --text: #EEF1F7; --muted: #9AA3B5; --bg: #0B1226; --card: #141C33; --line: #232D4A; } }
+:root { --navy: #11162C; --navy2: #232C4E; --lime: #B4F122; --text: #0D1226; --muted: #5A6178; --bg: #F4F6EE; --card: #FFFFFF; --line: #E3E6EE; }
+@media (prefers-color-scheme: dark) { :root { --text: #EEF1F7; --muted: #9AA3B5; --bg: #0D1226; --card: #141B33; --line: #222A47; } }
 * { box-sizing: border-box; }
-body { margin: 0; font: 17px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: var(--text); background: var(--bg); }
+body { margin: 0; font: 17px/1.55 Onest, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: var(--text); background: var(--bg); }
 a { color: inherit; }
 .wrap { max-width: 960px; margin: 0 auto; padding: 0 16px; }
 header.hero { background: linear-gradient(180deg, var(--navy2), var(--navy)); color: #fff; padding: 72px 0 80px; text-align: center; }
 .hero img { width: 112px; height: 112px; }
-.hero h1 { font-size: clamp(36px, 7vw, 56px); margin: 20px 0 8px; letter-spacing: -0.02em; }
+.hero h1 { font-size: clamp(36px, 7vw, 56px); font-weight: 700; margin: 20px 0 8px; letter-spacing: -0.025em; }
 .hero p { font-size: 20px; color: #C9D1E4; max-width: 620px; margin: 0 auto; }
 .hero .cta { display: inline-block; margin-top: 28px; padding: 14px 26px; border-radius: 999px; background: var(--lime); color: var(--navy); font-weight: 700; text-decoration: none; }
 section { padding: 56px 0; }
